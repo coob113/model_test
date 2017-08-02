@@ -1,0 +1,285 @@
+{
+    "accessors": {
+        "accessors_0": {
+            "bufferView": "bufferViews_0",
+            "byteOffset": 24,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 34231,
+            "max": [
+                0.9963525533676147,
+                0.9967649003956467
+            ],
+            "min": [
+                0.003647439880296588,
+                0.0032351016998291016
+            ],
+            "type": "VEC2"
+        },
+        "accessors_1": {
+            "bufferView": "bufferViews_0",
+            "byteOffset": 12,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 34231,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessors_2": {
+            "bufferView": "bufferViews_0",
+            "byteOffset": 0,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 34231,
+            "max": [
+                3.5717999935150146,
+                6.975299835205078,
+                0.4156000018119812
+            ],
+            "min": [
+                -3.5717999935150146,
+                -6.975299835205078,
+                -0.4156000018119812
+            ],
+            "type": "VEC3"
+        },
+        "accessors_3": {
+            "bufferView": "bufferViews_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 155109,
+            "max": [
+                34230
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferViews_0": {
+            "buffer": "buffers_0",
+            "byteLength": 1095392,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferViews_1": {
+            "buffer": "buffers_0",
+            "byteLength": 310218,
+            "byteOffset": 1095392,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffers_0": {
+            "byteLength": 1405610,
+            "type": "arraybuffer",
+            "uri": "buffer_combined.bin"
+        }
+    },
+    "cameras": {
+        "cameras_0": {
+            "name": "Camera",
+            "perspective": {
+                "aspectRatio": 1.703595982340029,
+                "yfov": 0.5033799409866333,
+                "zfar": 100.0,
+                "znear": 0.10000000149011612
+            },
+            "type": "perspective"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {
+                "lights_0": {
+                    "name": "Lamp",
+                    "point": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "constantAttenuation": 1,
+                        "linearAttenuation": 0,
+                        "quadraticAttenuation": 0.03333335240683057
+                    },
+                    "type": "point"
+                }
+            }
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "glExtensionsUsed": [],
+    "materials": {
+        "materials_0": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": [
+                            0.64000004529953,
+                            0.64000004529953,
+                            0.64000004529953,
+                            1.0
+                        ],
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "map"
+        }
+    },
+    "meshes": {
+        "meshes_0": {
+            "name": "iPhone_X",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessors_1",
+                        "POSITION": "accessors_2",
+                        "TEXCOORD_0": "accessors_0"
+                    },
+                    "indices": "accessors_3",
+                    "material": "materials_0",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "nodes_0": {
+            "camera": "cameras_0",
+            "children": [],
+            "name": "Camera",
+            "rotation": [
+                0.3124367296695709,
+                0.5592281222343445,
+                0.7553020119667053,
+                0.13844186067581177
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                5.305546760559082,
+                3.7818498611450195,
+                5.34366512298584
+            ]
+        },
+        "nodes_1": {
+            "children": [],
+            "meshes": [
+                "meshes_0"
+            ],
+            "name": "iPhone_X",
+            "rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "nodes_2": {
+            "children": [],
+            "extensions": {
+                "KHR_materials_common": {
+                    "light": "lights_0"
+                }
+            },
+            "name": "Lamp",
+            "rotation": [
+                0.16907575726509094,
+                0.27217137813568115,
+                0.7558802962303162,
+                0.570947527885437
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                4.076245307922363,
+                1.0054539442062378,
+                5.903861999511719
+            ]
+        }
+    },
+    "samplers": {
+        "samplers_0": {}
+    },
+    "scene": "scenes_0",
+    "scenes": {
+        "scenes_0": {
+            "extras": {
+                "active_camera": "cameras_0",
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "nodes_1",
+                "nodes_2",
+                "nodes_0"
+            ]
+        }
+    }
+}
